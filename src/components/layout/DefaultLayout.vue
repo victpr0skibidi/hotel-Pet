@@ -1,4 +1,4 @@
-    <script setup>
+<script setup>
 import { RouterView } from 'vue-router';
 import AppNavbar from '@/components/layout/AppNavbar.vue';
 import AppSidebar from '@/components/layout/AppSidebar.vue';
@@ -30,5 +30,3 @@ import AppSidebar from '@/components/layout/AppSidebar.vue';
   }
 }
 </style>
-@victpr0skibidi
-Comment
