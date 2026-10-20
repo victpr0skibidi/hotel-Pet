@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-
   routes: [
     {
       path: '/',
@@ -34,6 +33,7 @@ const router = createRouter({
       component: () => import('../views/TutoresView.vue'),
     },
     {
+      // precisa vir antes de '/tutores/:id'
       path: '/tutores/novo',
       name: 'addTutor',
       component: () => import('../views/AddTutorView.vue'),
@@ -47,4 +47,3 @@ const router = createRouter({
 });
 
 export default router;
-
